@@ -1,0 +1,16 @@
+[class|="top"]{
+/* style elements with the specified attribute whose value the same or followed by -*/
+    color: yellow;
+}
+[class^="text"]{
+/* style elements with the specified attribute whose value start with specified value*/
+    color: blue;
+}
+[class$="value"]{
+/* style elements with the specified attribute whose value end with specified value*/
+    color: purple;
+}
+[class*="va"]{
+    /* style elements with the specified attribute whose value contains specified value*/
+        color: purple;
+}

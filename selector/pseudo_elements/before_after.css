@@ -1,0 +1,15 @@
+p::before{
+    content: url(https://classic.vn/wp-content/uploads/2022/07/phone-icon-800x800.png);
+    /* cant adjust img inside content attribute*/
+    width: 10px;
+}
+p::after{
+    /* use background image attribute instead if u want adjust the size,..*/
+    content: '';/* necessary*/
+    display: inline-block;
+    /* repeat the image until it fits the whole background-space( size)*/
+    width: 70px;
+    height: 70px;
+    background-image: url(https://classic.vn/wp-content/uploads/2022/07/phone-icon-800x800.png);
+    background-size: 15px;
+}

@@ -1,0 +1,13 @@
+a:link{
+    color:red;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color:blue;
+}
+/*follow the order*/

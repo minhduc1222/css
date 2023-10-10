@@ -1,0 +1,8 @@
+p{
+    display: none;
+    color: blue;
+    background-color: yellow;
+}
+div:hover p{ /*only style p within specified element*/
+    display: block
+}
